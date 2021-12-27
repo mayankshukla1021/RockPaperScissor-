@@ -1,0 +1,35 @@
+.div1{
+    margin:  rgb(41, 54, 78);
+    padding-bottom:20px ;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 40px;
+    background-color: rgb(34, 32, 32);
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+    color: chocolate;
+    font-family: cursive;
+}
+.game{
+    color: chocolate;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    background-color: rgb(34, 32, 32);
+    font-family: cursive;
+    background-color: black;
+
+}
+.result{
+    text-align: center;
+
+    font-family: cursive;
+    color: chocolate;
+    background-color: rgb(34, 32, 32);
+}
+body{
+    background-color: rgb(34, 32, 32);
+}
