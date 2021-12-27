@@ -7,17 +7,20 @@ function computerPlay()
   }
   if(s==1)
   {
-   return("Paper");
+   return("paper");
   }
   if(s==2)
   {
-  return("Scissor");
+  return("scissor");
   }
 }
 
 function playRound(ps)
 {
 let cp=computerPlay();
+console.log(cp);
+
+
 
 if(cp=="rock" && ps =="rock")
   console.log("tie");
@@ -26,7 +29,7 @@ if(cp=="rock" && ps =="rock")
   else if(cp=="rock" && ps=="scissor")
   console.log("computer win");
   else if(cp=="paper" && ps=="rock")
-  console.log("player win");
+  console.log("computer win");
   else if(cp=="paper" && ps=="paper")
   console.log("tie");
   else if(cp=="paper" && ps=="scissor")
